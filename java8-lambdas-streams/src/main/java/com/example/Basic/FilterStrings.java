@@ -1,4 +1,4 @@
-package java8_Lambdas_Streams;
+package main.java.com.example;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.*;
