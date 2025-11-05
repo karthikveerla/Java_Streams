@@ -1,4 +1,4 @@
-package main.java.com.example.Basic;
+package com.example.Basic;
 import java.util.*;
 import java.util.stream.*;
 
