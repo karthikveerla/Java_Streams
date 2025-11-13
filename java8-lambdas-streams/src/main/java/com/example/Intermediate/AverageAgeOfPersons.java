@@ -13,7 +13,7 @@ public class AverageAgeOfPersons {
                                     new Person("David",36));
 
 
-           double avgage = p.stream()
+           double avg = p.stream()
              .mapToInt(Person::getAge)
              .average()
              .orElse(0.0);
