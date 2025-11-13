@@ -7,7 +7,7 @@ import com.example.dtos.Person;
 
 public class AverageAgeOfPersons {
     public static void main(String[] args) {
-        List<Person> p = Arrays.asList(new Person("alice",35),
+        List<Person> p = Arrays.asList(new Person("alic",35),
                                     new Person("Bob", 45),
                                     new Person("Chris",40),
                                     new Person("David",36));
