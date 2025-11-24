@@ -1,5 +1,4 @@
 package com.example.Interview;
-import java.util.*;
 
 public class ToUpperCase {
     public static void main(String[] args) {
