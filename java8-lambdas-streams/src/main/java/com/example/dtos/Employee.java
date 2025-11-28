@@ -4,9 +4,11 @@ public class Employee {
     private int id;
     private String name;
     private double Salary;
-    public Employee(int id, String name, double salary) {
+    private String dept;
+    public Employee(int id, String name, String dept,  double salary) {
         this.id = id;
         this.name = name;
+        this.dept = dept;
         this.Salary = salary;
     }
     public int getId() {
@@ -20,6 +22,14 @@ public class Employee {
     }
     public void setName(String name) {
         this.name = name;
+    }
+
+    public void setDept(String dept){
+        this.dept = dept;
+    }
+
+    public String getDept(){
+        return dept;
     }
     public double getSalary() {
         return Salary;
