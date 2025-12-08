@@ -31,6 +31,10 @@ public class Employee {
     public String getDept(){
         return dept;
     }
+    @Override
+    public String toString() {
+        return "Employee [id=" + id + ", name=" + name + ", Salary=" + Salary + ", dept=" + dept + "]";
+    }
     public double getSalary() {
         return Salary;
     }
